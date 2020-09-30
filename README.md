@@ -44,7 +44,7 @@ Implement using SLY the grammar tha represent binary numbers, this definition su
 
 ### Used attributes
 
-| Used attributes                         |
+| Used attributes |                       |
 |-----------------|-----------------------|
 | num.v           | Number value          |
 | sec.v           | Digit sequence value  |
