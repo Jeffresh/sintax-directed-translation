@@ -5,7 +5,7 @@ Design translation scheme (offset parameters Pascal style. That is, the paramete
 ### Grammar:
 
 ```
-Def -> ID ID Resto
+Def -> ID Tipo Resto
 Resto -> ‘,’ Tipo ID Resto
 Resto -> epsilon
 Tipo -> INT
