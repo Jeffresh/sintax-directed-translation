@@ -1,4 +1,4 @@
-# Sintax directed translate examples (Translation scheme design)
+# Sintax directed translation examples (Translation scheme design)
 
 Design translation scheme (offset parameters Pascal style. That is, the parameters are put on the stack form left ro right) of this grammar:
 
