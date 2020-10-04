@@ -1,5 +1,7 @@
 # Sintax directed translation examples (Translation scheme design)
 
+## Functional expression notation
+
 Design translation scheme (offset parameters Pascal style. That is, the parameters are put on the stack form left ro right) of this grammar:
 
 ### Grammar:
@@ -31,6 +33,7 @@ Offset de a = 4 + sizeof(char) + sizeof(float)
 ### Implementation
 [Functional expresion notebook](.\src\functional_expressions.ipynb)
 
+## Binary float numbers to float
 
 Implement using SLY the translation scheme that represent binary float numbers. **Example:**
 `10011.101`
