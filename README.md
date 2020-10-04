@@ -1,6 +1,6 @@
-# Sintax directed translate
+# Sintax directed translate examples (Translation scheme design)
 
-Design translation scheme (offset parameters Pascal style. That is, the parameters are put on the stack form left ro right)
+Design translation scheme (offset parameters Pascal style. That is, the parameters are put on the stack form left ro right) of this grammar:
 
 ### Grammar:
 
@@ -28,8 +28,11 @@ Offset de a = 4 + sizeof(char) + sizeof(float)
 
 ```
 
+### Implementation
+[Functional expresion notebook](.\src\functional_expressions.ipynb)
 
-Implement using SLY the grammar tha represent binary numbers, this definition supports binary floating point numbers and calculates its value. **Example:**
+
+Implement using SLY the translation scheme that represent binary float numbers. **Example:**
 `10011.101`
 
 ### Grammar:
@@ -50,3 +53,8 @@ Implement using SLY the grammar tha represent binary numbers, this definition su
 | sec.v           | Digit sequence value  |
 | sec.lon         | Digit sequence length |
 | dig.v           | Digit value           |
+
+
+### Implementation
+
+[Binary float numbers](.\src\binary_float_numbers.ipynb)
